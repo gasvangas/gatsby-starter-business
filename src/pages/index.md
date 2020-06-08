@@ -8,17 +8,26 @@ description: >-
 offerings:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+      text: >-
+        Realizziamo arredi interni personalizzati di alta qualità in legno
+        naturale, basati sul rispetto
+
+        dell'ambiente.
+
+        La nostra linea di prodotti artigianali è una perfetta fusione tra
+        passato e presente, tra tradizione e
+
+        innovazione.
+
+        Ogni singolo dettaglio dei nostri prodotti è certificato dall'eccellenza
+        artigiana della Regione
+
+        Piemonte.
+
+        Collaboriamo con architetti, designer e progettisti che cercano di dare
+        “forma” al materiale più nobile
+
+        ed eco sostenibile...il legno.
     - image: /img/coffee-gear.png
       text: >
         Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi.
