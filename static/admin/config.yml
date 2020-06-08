@@ -35,30 +35,17 @@ collections:
         label: "Realizzazioni Page"
         name: "realizzazioni"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pricing-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "realizzazioni-page"}
       - file: "src/pages/restauro/index.md"
         label: "Restauro Page"
         name: "restauro"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "restauro-page"}
       - file: "src/pages/collaborazioni/index.md"
         label: "Collaborazioni Page"
         name: "collaborazioni"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "collaborazioni-page"}
       - file: "src/pages/contatti/index.md"
         label: "Contatti Page"
         name: "contatti"
