@@ -1,10 +1,8 @@
 ---
 templateKey: home-page
 title: Flavio Foglio
-heading: Lorem ipsum dolor sit amet
-description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+heading: La nostra missione
+description: lorem ipsum docet amen tartarughe ninja
 offerings:
   blurbs:
     - image: /img/coffee.png
@@ -77,7 +75,7 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Home | Gatsby Starter Business
+meta_title: Home | Flavio Foglio
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
