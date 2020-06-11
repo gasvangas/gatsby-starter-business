@@ -1,6 +1,5 @@
 import React from 'react'
 import config from '../../../config'
-import Icon from '@mdi/react'
 
 const Footer = () => {
   return (
@@ -17,10 +16,10 @@ const Footer = () => {
         </span>
         <div>
           <span class="icon is-small is-right">
-            <Icon path={mdiPinterest} href={config.pinterestUrl} />
+            <i class="fab fa-pinterest" href={config.pinterestUrl}></i>
           </span>
           <span class="icon is-small is-right">
-            <i class="mdi mdi-Instagram" href={config.instagramUrl}></i>
+            <i class="fab fa-instagram" href={config.instagramUrl}></i>
           </span>
         </div>
       </div>
