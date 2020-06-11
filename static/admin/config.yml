@@ -31,11 +31,11 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
-      #- file: "src/pages/realizzazioni/index.md"
-      #  label: "Realizzazioni"
-      #  name: "realizzazioni"
-      #  fields:
-      #    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "realizzazioni-page"}
+      - file: "src/pages/realizzazioni/index.md"
+        label: "Realizzazioni"
+        name: "realizzazioni"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "realizzazioni-page"}
       #- file: "src/pages/restauro/index.md"
       #  label: "Restauro"
       #  name: "restauro"
