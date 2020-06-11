@@ -36,16 +36,16 @@ collections:
         name: "realizzazioni"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "realizzazioni-page"}
-      #- file: "src/pages/restauro/index.md"
-      #  label: "Restauro"
-      #  name: "restauro"
-      #  fields:
-      #    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "restauro-page"}
-      #- file: "src/pages/collaborazioni/index.md"
-      #  label: "Collaborazioni"
-      #  name: "collaborazioni"
-      #  fields:
-      #    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "collaborazioni-page"}
+      - file: "src/pages/restauro/index.md"
+        label: "Restauro"
+        name: "restauro"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "restauro-page"}
+      - file: "src/pages/collaborazioni/index.md"
+        label: "Collaborazioni"
+        name: "collaborazioni"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "collaborazioni-page"}
       - file: "src/pages/contatti/index.md"
         label: "Contatti"
         name: "contatti"
