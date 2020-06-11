@@ -10,6 +10,18 @@ const Footer = () => {
             {config.copyright}
           </p>
         </div>
+        <br />
+        <span>
+          I Nostri Social:
+        </span>
+        <div>
+          <span class="icon has-text-success">
+            <i class="mdi mdiPinterest" href={config.pinterestUrl}></i>
+          </span>
+          <span class="icon has-text-success">
+            <i class="mdi mdiInstagram" href={config.instagramUrl}></i>
+          </span>
+        </div>
       </div>
     </footer>
   )
