@@ -18,6 +18,7 @@ const CollaborazioniPage = ({ data }) => {
       <CollaborazioniPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
         content={post.html}
       />
     </Layout>
@@ -36,6 +37,7 @@ export const collaborazioniPageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         meta_title
         meta_description
       }

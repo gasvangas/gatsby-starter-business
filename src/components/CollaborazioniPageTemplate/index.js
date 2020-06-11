@@ -42,6 +42,7 @@ const CollaborazioniPageTemplate = ({ title, subtitle, content, contentComponent
 
 CollaborazioniPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
