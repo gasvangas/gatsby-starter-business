@@ -15,11 +15,11 @@ const Footer = () => {
           I Nostri Social:
         </span>
         <div>
-          <span class="icon has-text-success">
-            <i class="mdi mdiPinterest" href={config.pinterestUrl}></i>
+          <span class="icon is-small is-right">
+            <i class="mdi mdi-Pinterest" href={config.pinterestUrl}></i>
           </span>
-          <span class="icon has-text-success">
-            <i class="mdi mdiInstagram" href={config.instagramUrl}></i>
+          <span class="icon is-small is-right">
+            <i class="mdi mdi-Instagram" href={config.instagramUrl}></i>
           </span>
         </div>
       </div>
