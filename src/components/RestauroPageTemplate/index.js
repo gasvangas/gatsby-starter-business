@@ -42,6 +42,7 @@ const RestauroPageTemplate = ({ title, subtitle, content, contentComponent }) =>
 
 RestauroPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }

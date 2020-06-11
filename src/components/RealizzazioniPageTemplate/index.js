@@ -42,6 +42,7 @@ const RealizzazioniPageTemplate = ({ title, subtitle, content, contentComponent 
 
 RealizzazioniPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }

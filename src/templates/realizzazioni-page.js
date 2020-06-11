@@ -18,6 +18,7 @@ const RealizzazioniPage = ({ data }) => {
       <RealizzazioniPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
         content={post.html}
       />
     </Layout>
@@ -36,6 +37,7 @@ export const realizzazioniPageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         meta_title
         meta_description
       }
