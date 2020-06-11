@@ -15,6 +15,18 @@ const Footer = () => {
           I Nostri Social:
         </span>
         <div>
+        <button class="button is-medium">
+          <span class="icon is-small">
+            <i class="fas fa-pinterest"></i>
+          </span>
+          <span>Pinterest</span>
+        </button>
+        <button class="button is-medium">
+          <span class="icon is-small">
+            <i class="fas fa-instagram"></i>
+          </span>
+          <span>Instagram</span>
+        </button>
           <span class="icon is-small is-right">
             <i class="fab fa-pinterest" href={config.pinterestUrl}></i>
           </span>
