@@ -15,23 +15,23 @@ const Footer = () => {
           I Nostri Social:
         </span>
         <div>
-        <button class="button is-medium">
+        <button class="button is-success">
           <span class="icon is-small">
-            <i class="fas fa-pinterest"></i>
+            <i class="fab fa-pinterest"></i>
           </span>
-          <span>Pinterest</span>
+          <span href={config.pinterestUrl}>Pinterest</span>
         </button>
-        <button class="button is-medium">
+        <button class="button is-success">
           <span class="icon is-small">
-            <i class="fas fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
           </span>
-          <span>Instagram</span>
+          <span  href={config.instagramUrl}>Instagram</span>
         </button>
           <span class="icon is-small is-right">
-            <i class="fab fa-pinterest" href={config.pinterestUrl}></i>
+            <i class="fab fa-pinterest"></i>
           </span>
           <span class="icon is-small is-right">
-            <i class="fab fa-instagram" href={config.instagramUrl}></i>
+            <i class="fab fa-instagram"></i>
           </span>
         </div>
       </div>
