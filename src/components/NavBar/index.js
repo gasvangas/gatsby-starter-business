@@ -32,10 +32,19 @@ const NavBar = ({ toggleNavbar, isActive }) => (
           <div className='navbar-end'>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
             <Link className='navbar-item' to='/about'>
-                            About
+                            Chi Siamo
+            </Link>
+            <Link className='navbar-item' to='/collaborazioni'>
+                            Collaborazioni
             </Link>
             <Link className='navbar-item' to='/pricing'>
                             Pricing
+            </Link>
+            <Link className='navbar-item' to='/realizzazioni'>
+                            Realizzazioni
+            </Link>
+            <Link className='navbar-item' to='/restauro'>
+                            Restauro
             </Link>
             <Link className='navbar-item' to='/blog'>
                             Blog
@@ -46,7 +55,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
                   <Link
                     className='button is-primary is-outlined'
                     to='/contact'>
-                            Contact Us
+                            Contattaci
                   </Link>
                 </p>
               </div>
