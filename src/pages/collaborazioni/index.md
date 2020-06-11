@@ -1,6 +1,7 @@
 ---
 templateKey: collaborazioni-page
 title: Le Nostre Collaborazioni
+subtitle: Sottotitolo da scegliere Collaborazioni
 meta_title: Collaborazioni | Flavio Foglio website
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur

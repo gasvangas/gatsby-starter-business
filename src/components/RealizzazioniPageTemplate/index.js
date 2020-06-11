@@ -2,7 +2,7 @@ import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
 
-const RealizzazioniPageTemplate = ({ title, content, contentComponent }) => {
+const RealizzazioniPageTemplate = ({ title, subtitle, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -16,6 +16,9 @@ const RealizzazioniPageTemplate = ({ title, content, contentComponent }) => {
                   <h1 className='title'>
                     {title}
                   </h1>
+                  <h2 class="subtitle">
+                    {subtitle}
+                  </h2>
                 </div>
               </div>
             </div>

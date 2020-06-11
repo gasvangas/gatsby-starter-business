@@ -55,7 +55,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
                   <Link
                     className='button is-primary is-outlined'
                     to='/contact'>
-                            Contattaci
+                            Contattaci    
                   </Link>
                 </p>
               </div>

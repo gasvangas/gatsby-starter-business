@@ -2,7 +2,7 @@ import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
 
-const RestauroPageTemplate = ({ title, content, contentComponent }) => {
+const RestauroPageTemplate = ({ title, subtitle, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -16,6 +16,9 @@ const RestauroPageTemplate = ({ title, content, contentComponent }) => {
                   <h1 className='title'>
                     {title}
                   </h1>
+                  <h2 class="subtitle">
+                    {subtitle}
+                  </h2>
                 </div>
               </div>
             </div>
