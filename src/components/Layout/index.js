@@ -22,6 +22,7 @@ class Layout extends Component {
         <Helmet>
           <title>{config.siteTitle}</title>
           <meta name='description' content={config.siteDescription} />
+          <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" />
         </Helmet>
         <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
         <div id='content-wrapper'>
