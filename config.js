@@ -16,7 +16,7 @@ module.exports = {
   copyright: 'Copyright © Flavio Foglio 2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
-  pinterestUrl: 'https://www.pinterest.com', //url to pinterest page
-  instagramUrl: 'https://www.instagram.com',//url to instagram page
+  pinterestUrl: 'https://www.pinterest.it/falegnameriafoglio/', //url to pinterest page
+  instagramUrl: 'https://www.instagram.com/falegnameria_foglioflavio/?hl=it',//url to instagram page
 }
 
