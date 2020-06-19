@@ -1,5 +1,6 @@
 import React from 'react'
 import config from '../../../config'
+import { Link, graphql, StaticQuery } from 'gatsby'
 
 const Footer = () => {
   return (
@@ -7,32 +8,37 @@ const Footer = () => {
       <div className='container'>
         <div className='content has-text-centered'>
           <p>
-            {config.copyright}
+            <strong>{config.copyright}</strong>
           </p>
         </div>
         <br />
+      <div className='content has-text-centered'>
         <span>
-          I Nostri Social:
+          <strong>I Nostri Social:</strong>
         </span>
-        <div>
+        <div class="box has-text-centered">
         <button class="button is-success">
           <span class="icon is-small">
             <i class="fab fa-pinterest"></i>
           </span>
-          <span href={config.pinterestUrl}>Pinterest</span>
+          <Link to={config.pinterestUrl} style={{ color: '#FFF' }}>Pinterest</Link>
         </button>
+        <span>    </span>
         <button class="button is-success">
           <span class="icon is-small">
             <i class="fab fa-instagram"></i>
           </span>
-          <span  href={config.instagramUrl}>Instagram</span>
+          <Link  to={config.instagramUrl} style={{ color: '#FFF' }}>Instagram</Link>
         </button>
+        </div>
+        {/*
           <span class="icon is-small is-right">
             <i class="fab fa-pinterest"></i>
           </span>
           <span class="icon is-small is-right">
             <i class="fab fa-instagram"></i>
           </span>
+        */}
         </div>
       </div>
     </footer>
