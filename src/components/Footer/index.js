@@ -4,8 +4,7 @@ import config from '../../../config'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-      <div className='container'>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>      <div className='container'>
         <div className='content has-text-centered'>
           <p>
             {config.copyright}
