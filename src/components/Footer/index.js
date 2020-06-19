@@ -3,6 +3,7 @@ import config from '../../../config'
 
 const Footer = () => {
   return (
+    <footer>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"/>
       <div className='container'>
         <div className='content has-text-centered'>
