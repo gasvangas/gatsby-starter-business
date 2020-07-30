@@ -108,7 +108,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
                 <p className='control'>
                   <Link
                     className='button is-primary is-outlined'
-                    to='/contact'>
+                    to='/contatti'>
                             Contattaci    
                   </Link>
                 </p>
